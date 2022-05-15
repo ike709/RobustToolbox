@@ -2,10 +2,10 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   # Require protected branches to no introduce security alerts
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   # Keep results up to date if no activity happens
   schedule:
     - cron: '37 22 * * 1'
